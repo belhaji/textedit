@@ -21,6 +21,7 @@
 #include "textedit.h"
 
 
+
 typedef struct 
 {
 	GtkWidget *find_entry;		
@@ -35,5 +36,6 @@ void search_btn_clicked(GtkWidget *wid,gpointer data);
 void replace_btn_clicked(GtkWidget *wid,gpointer data);
 
 void replace_all_btn_clicked(GtkWidget *wid,gpointer data);
+
 
 #endif /* SEARCH_BOX_H */

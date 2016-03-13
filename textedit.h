@@ -16,12 +16,11 @@
  */
 
 
-#ifndef CSIMPLEIDE_H
-#define CSIMPLEIDE_H
+#ifndef EDIT_TEXT
+#define EDIT_TEXT
 
 #include <gtk/gtk.h>
 #include <gtksourceview/gtksourceview.h>
-#include <vte/vte.h>
 
 
 
@@ -35,13 +34,13 @@
 
 #define AUTHOR_EMAIL "belhaji.dev@gmail.com"
 
-#define CONFIG_DIR	 "/.scide/"
+#define CONFIG_DIR	 "/.textedit/"
 
 #define CONFIG_FILE	 ".textedit.rc"
 
 #define APP_DIR		 "/usr/share/textedit/"
 
-#define ICON_PATH	 APP_DIR"textedit"
+#define ICON_PATH	 APP_DIR"textedit.png"
 
 
 /* define app data structure */
@@ -65,10 +64,7 @@ typedef struct {
 	GtkWidget *main_toolbar;
 	Editor *editor;
 	Document *doc;
-} CSIde_app ;
-
-
-
+} CSIde_app;
 
 
 /* define app functions for initialization */
@@ -81,4 +77,4 @@ void cside_app_free(CSIde_app *app);
 
 
 
-#endif // CSIMPLEIDE_H 
+#endif // EDIT_TEXT 
