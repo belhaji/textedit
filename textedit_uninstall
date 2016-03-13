@@ -1,0 +1,14 @@
+#!/bin/bash
+
+USER=`id -u`
+
+if [ $USER != 0 ] 
+  then
+    echo -e "Permission denied: \n\t this operation need root privileges please use sudo $0"
+    exit 1
+fi
+
+rm -rf /usr/share/textedit/
+rm -rf /usr/share/applications/textedit.desktop
+rm -rf /usr/bin/textedit_editor 
+rm -rf /usr/bin/textedit_uninstall

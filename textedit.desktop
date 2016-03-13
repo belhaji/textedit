@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Text Edit
+GenericName=textedit
+Comment=Edit text files
+Exec=textedit
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=/usr/share/textedit/textedit.png
+Categories=Development;IDE;GTK;
+
+[Desktop Action Window]
+Name=Open a New Window
+
+[Desktop Action Document]
+Name=Open a New Document
+Exec=textedit
