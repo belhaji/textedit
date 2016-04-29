@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 adil belhaji <belhaji.dev@gmail.com>
+ * Copyright (C) 2016 adil belhaji <belhaji.dev@gmail.com>
  * 
  * textedit is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -215,7 +215,7 @@ void menu_item_about_clicked(GtkWidget *wid,gpointer data){
 	aboutDialog = gtk_about_dialog_new ();
 	gtk_about_dialog_set_program_name(GTK_ABOUT_DIALOG(aboutDialog),APP_NAME);
 	gtk_about_dialog_set_version(GTK_ABOUT_DIALOG(aboutDialog),APP_VERSION);
-	gtk_about_dialog_set_copyright(GTK_ABOUT_DIALOG(aboutDialog),"2014 (c) Adil Belhaji");
+	gtk_about_dialog_set_copyright(GTK_ABOUT_DIALOG(aboutDialog),"2016 (c) Adil Belhaji");
 	gtk_about_dialog_set_license (GTK_ABOUT_DIALOG(aboutDialog),"ce programme est open source utiliser le comme vous voulez");
 	gtk_about_dialog_set_license_type (GTK_ABOUT_DIALOG(aboutDialog),GTK_LICENSE_GPL_3_0);
 	gtk_about_dialog_set_authors(GTK_ABOUT_DIALOG(aboutDialog),author);

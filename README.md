@@ -1,5 +1,5 @@
   
-  Copyright (C) 2014 adil belhaji <belhaji.dev@gmail.com>
+  Copyright (C) 2016 adil belhaji <belhaji.dev@gmail.com>
   
   textedit is free software: you can redistribute it and/or modify it
   under the terms of the GNU General Public License as published by the
